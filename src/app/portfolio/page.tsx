@@ -222,7 +222,7 @@ export default function PortfolioPage() {
             See how we turn real love stories into beautiful wedding websites.
           </p>
           <p className="text-base md:text-lg text-pink-100 italic max-w-2xl mx-auto drop-shadow">
-            "Every couple is unique. Your website should be too."
+            &quot;Every couple is unique. Your website should be too.&quot;
           </p>
         </div>
       </section>
@@ -241,7 +241,7 @@ export default function PortfolioPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-            {templates.map((tpl, idx) => (
+            {templates.map((tpl) => (
               <div key={tpl.name} className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-pink-100 hover:shadow-2xl transition-shadow duration-300 flex flex-col group heart-cursor-card">
                 {/* ₱999 Badge */}
                 <span className="absolute top-4 right-4 bg-pink-600 text-white text-xs font-bold px-4 py-1 rounded-full shadow z-20 group-hover:scale-110 transition-transform">₱999 Only</span>
@@ -318,7 +318,7 @@ export default function PortfolioPage() {
               <span className="block w-16 h-1 mt-2 rounded-full bg-gradient-to-r from-yellow-300 to-pink-300" />
             </h2>
             <p className="text-xl text-gray-600 mb-8 font-light">
-              Each template is crafted with love and attention to detail, blending elegance, romance, and modern features. Whether you dream of a classic, whimsical, or beach-inspired wedding, you'll find a design that perfectly fits your story. All templates are fully mobile-responsive, easy to personalize, and include every feature you need—no hidden fees, just one affordable price. Celebrate your love with a website as unique as your journey together!
+              Each template is crafted with love and attention to detail, blending elegance, romance, and modern features. Whether you dream of a classic, whimsical, or beach-inspired wedding, you&apos;ll find a design that perfectly fits your story. All templates are fully mobile-responsive, easy to personalize, and include every feature you need—no hidden fees, just one affordable price. Celebrate your love with a website as unique as your journey together!
             </p>
           </div>
         </div>

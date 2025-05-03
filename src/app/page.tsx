@@ -165,7 +165,7 @@ export default function Home() {
             }, {
               title: 'Social Media Integration',
               desc: 'Share via one link or QR—quick and easy for everyone.'
-            }].map((feature, idx) => (
+            }].map((feature) => (
               <div key={feature.title} className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center text-center group feature-icon-heart">
                 <span className="mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:animate-heartBeat">
                   <svg
@@ -199,7 +199,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif mb-6">Your Love Stories in Action</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See how we turn real love stories into beautiful wedding websites. Each one is designed to reflect the couple's journey and love story.
+              See how we turn real love stories into beautiful wedding websites. Each one is designed to reflect the couple&apos;s journey and love story.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -241,9 +241,9 @@ export default function Home() {
                   <svg width="40" height="40" viewBox="0 0 24 24" fill="none" className="mx-auto mb-4" xmlns="http://www.w3.org/2000/svg"><path d="M12 21s-6.5-5.2-9-8.2C-1.5 8.5 2.5 3 7.5 5.5c2.1 1 3.5 3.1 4.5 5.1 1-2 2.4-4.1 4.5-5.1C21.5 3 25.5 8.5 21 12.8c-2.5 3-9 8.2-9 8.2z" fill="#f9c2d1" stroke="#b76e79" strokeWidth="1.5"/><circle cx="12" cy="12" r="3" fill="#fbb6ce" stroke="#b76e79" strokeWidth="1.2"/></svg>
                 ),
                 title: 'Go Live Instantly',
-                desc: 'We\'ll handle the rest—your website is deployed and ready to share with your loved ones!'
+                desc: 'We&apos;ll handle the rest—your website is deployed and ready to share with your loved ones!'
               }
-            ].map((step, idx) => (
+            ].map((step) => (
               <div key={step.title} className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-transform duration-300 hover:scale-105 group">
                 <span className="mb-4 group-hover:animate-heartBeat">{step.icon}</span>
                 <h3 className="text-xl font-semibold mb-2 text-pink-700">{step.title}</h3>
@@ -289,7 +289,7 @@ export default function Home() {
             href="/contact"
             className="inline-block bg-white text-pink-600 px-8 py-4 rounded-full font-medium hover:bg-pink-50 transition-colors text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
           >
-            I'm ready to book!
+            I&apos;m ready to book!
           </Link>
         </div>
       </section>
