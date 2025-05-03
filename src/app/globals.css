@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -22,5 +23,56 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, .wedding-script {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b76e79;
+}
+
+h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+/* Floating Hearts Animation */
+@keyframes floatingHeart {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  80% { opacity: 0.8; }
+  100% { transform: translateY(-60vh) scale(1.2); opacity: 0; }
+}
+
+.floating-heart {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  animation: floatingHeart 3.5s linear forwards;
+  z-index: 30;
+}
+
+.heart-cursor-card:hover {
+  cursor: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 24 24' fill='%23f472b6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 21s-6.5-5.2-9-8.2C-1.5 8.5 2.5 3 7.5 5.5c2.1 1 3.5 3.1 4.5 5.1 1-2 2.4-4.1 4.5-5.1C21.5 3 25.5 8.5 21 12.8c-2.5 3-9 8.2-9 8.2z' stroke='%23b76e79' stroke-width='1'/%3E%3C/svg%3E") 16 16, pointer;
+}
+
+.wedding-script {
+  font-family: 'Dancing Script', 'Great Vibes', cursive, serif;
+  letter-spacing: 0.01em;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes marquee-vertical {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+.animate-marquee {
+  animation: marquee var(--duration, 40s) linear infinite;
+}
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration, 40s) linear infinite;
 }
