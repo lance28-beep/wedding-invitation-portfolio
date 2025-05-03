@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import FloatingMessenger from "@/components/FloatingMessenger";
-
-const inter = Inter({ subsets: ["latin"] });
+import { dancingScript, greatVibes, lora } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "Wedding Templates - Beautiful Wedding Website Templates",
@@ -16,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${dancingScript.variable} ${greatVibes.variable} ${lora.variable}`}>
+      <body>
         {children}
         <FloatingMessenger />
       </body>
