@@ -7,6 +7,10 @@ import Footer from "@/components/Footer";
 import { useEffect } from "react";
 import { Marquee } from "@/components/magicui/marquee";
 import { cn } from "@/lib/utils";
+import { Dancing_Script, Great_Vibes } from 'next/font/google';
+
+const dancingScript = Dancing_Script({ subsets: ['latin'], weight: ['400', '700'] });
+const greatVibes = Great_Vibes({ subsets: ['latin'], weight: ['400'] });
 
 const templates = [
   {
