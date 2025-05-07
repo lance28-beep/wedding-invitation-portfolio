@@ -300,9 +300,12 @@ export default function PortfolioPage() {
                       href={tpl.messenger}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-white text-white px-6 py-2 rounded-full font-semibold text-base hover:bg-pink-50 transition-all border-2 border-white shadow-md w-full sm:w-auto text-center focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
+                      className="flex items-center justify-center gap-2 bg-white text-pink-600 px-6 py-2 rounded-full font-semibold text-base hover:bg-pink-50 transition-all border-2 border-pink-200 shadow-md w-full sm:w-auto text-center focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 group"
                       style={{boxShadow: '0 4px 16px 0 rgba(236, 72, 153, 0.10)'}}
                     >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 group-hover:scale-110 transition-transform">
+                        <path d="M12 2C6.486 2 2 6.262 2 11.5c0 2.545 1.088 4.988 3 6.75v7.75l6.5-3.5 6.5 3.5v-7.75c1.912-1.762 3-4.205 3-6.75C22 6.262 17.514 2 12 2zm0 2c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8zm0 2c-3.309 0-6 2.691-6 6s2.691 6 6 6 6-2.691 6-6-2.691-6-6-6zm0 2c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4z"/>
+                      </svg>
                       Message Us
                     </a>
                   </div>
