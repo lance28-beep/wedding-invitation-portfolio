@@ -300,7 +300,7 @@ export default function PortfolioPage() {
                       href={tpl.messenger}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-white text-pink-600 px-6 py-2 rounded-full font-semibold text-base hover:bg-pink-50 transition-all border-2 border-pink-600 shadow-md w-full sm:w-auto text-center focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
+                      className="bg-white text-white px-6 py-2 rounded-full font-semibold text-base hover:bg-pink-50 transition-all border-2 border-white shadow-md w-full sm:w-auto text-center focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
                       style={{boxShadow: '0 4px 16px 0 rgba(236, 72, 153, 0.10)'}}
                     >
                       Message Us

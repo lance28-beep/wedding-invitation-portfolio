@@ -57,13 +57,13 @@ export default function Home() {
         <div className="relative z-30 text-center px-4 max-w-4xl mx-auto">
           <div className="inline-block bg-black/60 rounded-2xl px-4 md:px-8 py-8 shadow-2xl w-full">
             <div className="mb-6 md:mb-8">
-              <span className="text-white/90 text-base md:text-lg tracking-widest drop-shadow-lg">WELCOME TO YOUR SPECIAL DAY</span>
+              <span className="text-white/90 text-base md:text-lg tracking-widest drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>WELCOME TO YOUR SPECIAL DAY</span>
             </div>
-            <h1 className="wedding-script mb-2 md:mb-6 text-4xl xs:text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-serif text-white leading-tight md:leading-tight drop-shadow-2xl">
-              A Love Like Yours<br />
+            <h1 className="mb-2 md:mb-6 text-4xl xs:text-5xl sm:text-5xl md:text-6xl lg:text-8xl text-white leading-tight md:leading-tight drop-shadow-2xl" style={{fontFamily: 'var(--font-playfair)'}}>
+              Wedding Invitation Naga<br />
               <span className="text-pink-200 drop-shadow-2xl block mt-2 md:mt-0">Deserves This</span>
             </h1>
-            <h2 className="wedding-script text-2xl xs:text-3xl sm:text-3xl md:text-4xl text-white/90 mb-4 md:mb-8 font-light drop-shadow-lg">
+            <h2 className="text-2xl xs:text-3xl sm:text-3xl md:text-4xl text-white/90 mb-4 md:mb-8 font-light drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>
               All-in-One Wedding Website
             </h2>
             <p className="text-base xs:text-lg sm:text-xl md:text-xl text-white/90 mb-8 md:mb-12 max-w-2xl mx-auto drop-shadow-lg">

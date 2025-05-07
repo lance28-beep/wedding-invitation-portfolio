@@ -38,8 +38,8 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center group">
               <span className="flex flex-col leading-tight">
-                <span className={`font-serif text-xl md:text-2xl lg:text-3xl -mb-1 transition-all duration-300 ${scrolled ? 'text-pink-600' : 'text-white'} group-hover:text-pink-400`} style={{lineHeight: '1'}}>
-                  Wedding Templates
+                <span className={`text-xl md:text-2xl lg:text-3xl -mb-1 transition-all duration-300 ${scrolled ? 'text-pink-600' : 'text-white'} group-hover:text-pink-400`} style={{lineHeight: '1', fontFamily: 'var(--font-playfair)'}}>
+                  Wedding Invitation Naga
                   <span className="inline-block align-middle ml-1 text-pink-200 group-hover:scale-110 transition-transform duration-300" style={{fontSize: '0.4em'}}>
                     {/* Heart accent */}
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="inline-block">

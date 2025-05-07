@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 interface Message {
   id: string;
@@ -12,32 +13,7 @@ interface Message {
 
 export default function FloatingMessenger() {
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [inputMessage, setInputMessage] = useState('');
-
-  const handleSendMessage = () => {
-    if (!inputMessage.trim()) return;
-
-    const newMessage: Message = {
-      id: Date.now().toString(),
-      text: inputMessage,
-      sender: 'user',
-      timestamp: new Date(),
-    };
-
-    setMessages((prev) => [...prev, newMessage]);
-    setInputMessage('');
-
-    // Open m.me link in a new tab
-    window.open('https://m.me/WeddingInvitationNaga', '_blank');
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      handleSendMessage();
-    }
-  };
+  const [messages] = useState<Message[]>([]);
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -74,13 +50,20 @@ export default function FloatingMessenger() {
             <div className="p-4 border-b border-gray-200 bg-[#0084FF] text-white rounded-t-lg">
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-2">
-                  <img
+                  <Image
                     src="/img/avatar.png"
                     alt="Messenger"
-                    className="w-8 h-8 rounded-full"
+                    width={32}
+                    height={32}
+                    className="rounded-full"
                   />
                   <div>
-                    <h3 className="text-lg font-medium">Wedding Invitation Naga</h3>
+                    <h3
+                      className="text-lg font-medium"
+                      style={{ fontFamily: 'var(--font-playfair)', color: '#fff' }}
+                    >
+                      Wedding Invitation Naga
+                    </h3>
                     <p className="text-sm text-white/80">Chat with us on Messenger</p>
                   </div>
                 </div>
