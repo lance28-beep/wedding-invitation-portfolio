@@ -55,7 +55,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-30 text-center px-1 sm:px-4 max-w-[95vw] md:max-w-2xl lg:max-w-4xl mx-auto w-full">
-          <div className="inline-block bg-black/60 backdrop-blur-lg border border-white/10 rounded-2xl lg:rounded-3xl px-2 sm:px-6 md:px-12 py-4 sm:py-8 md:py-14 shadow-2xl lg:shadow-3xl w-full max-w-full max-h-[90vh] overflow-y-auto" style={{boxShadow: '0 8px 40px 0 rgba(236, 72, 153, 0.18)'}}>
+          <div className="inline-block bg-black/60 backdrop-blur-lg border border-white/10 rounded-2xl lg:rounded-3xl px-2 sm:px-6 md:px-12 py-4 sm:py-8 md:py-14 shadow-2xl lg:shadow-3xl w-full max-w-full" style={{boxShadow: '0 8px 40px 0 rgba(236, 72, 153, 0.18)'}}>
             <div className="mb-3 sm:mb-6 md:mb-8">
               <span className="text-white/90 text-xs sm:text-base md:text-lg tracking-widest drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>💻✨ WELCOME TO YOUR DREAM WEDDING INVITE ✨💻</span>
             </div>
