@@ -38,7 +38,7 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative h-[95vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[100vh] min-h-[667px] flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div 
           className="absolute inset-0 bg-cover bg-center"
@@ -54,27 +54,53 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="relative z-30 text-center px-4 max-w-4xl mx-auto">
-          <div className="inline-block bg-black/60 rounded-2xl px-4 md:px-8 py-8 shadow-2xl w-full">
-            <div className="mb-6 md:mb-8">
-              <span className="text-white/90 text-base md:text-lg tracking-widest drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>WELCOME TO YOUR SPECIAL DAY</span>
+        <div className="relative z-30 text-center px-1 sm:px-4 max-w-[95vw] md:max-w-2xl lg:max-w-4xl mx-auto w-full">
+          <div className="inline-block bg-black/60 backdrop-blur-lg border border-white/10 rounded-2xl lg:rounded-3xl px-2 sm:px-6 md:px-12 py-4 sm:py-8 md:py-14 shadow-2xl lg:shadow-3xl w-full max-w-full max-h-[90vh] overflow-y-auto" style={{boxShadow: '0 8px 40px 0 rgba(236, 72, 153, 0.18)'}}>
+            <div className="mb-3 sm:mb-6 md:mb-8">
+              <span className="text-white/90 text-xs sm:text-base md:text-lg tracking-widest drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>💻✨ WELCOME TO YOUR DREAM WEDDING INVITE ✨💻</span>
             </div>
-            <h1 className="mb-2 md:mb-6 text-4xl xs:text-5xl sm:text-5xl md:text-6xl lg:text-8xl text-white leading-tight md:leading-tight drop-shadow-2xl" style={{fontFamily: 'var(--font-playfair)'}}>
-              Wedding Invitation Naga<br />
-              <span className="text-pink-200 drop-shadow-2xl block mt-2 md:mt-0">Deserves This</span>
+            <h1 className="mb-1 sm:mb-4 md:mb-6 text-2xl xs:text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-pink-200 leading-tight md:leading-tight drop-shadow-2xl font-serif" style={{fontFamily: 'var(--font-playfair)'}}>
+              Digital & Affordable<br />
+              <span className="text-pink-100 drop-shadow-2xl block mt-1 sm:mt-2 md:mt-0 text-2xl xs:text-3xl sm:text-5xl">Wedding Invitations</span>
             </h1>
-            <h2 className="text-2xl xs:text-3xl sm:text-3xl md:text-4xl text-white/90 mb-4 md:mb-8 font-light drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>
-              All-in-One Wedding Website
+            <h2 className="text-base sm:text-xl md:text-2xl lg:text-3xl text-pink-300 mb-2 sm:mb-4 md:mb-8 font-light drop-shadow-lg" style={{fontFamily: 'var(--font-playfair)'}}>
+              Just ₱999 - All Features Included!
             </h2>
-            <p className="text-base xs:text-lg sm:text-xl md:text-xl text-white/90 mb-8 md:mb-12 max-w-2xl mx-auto drop-shadow-lg">
-              Elegant One-Page Wedding Websites Crafted Just for You.
+            <p className="text-xs sm:text-base md:text-lg lg:text-xl text-white/90 mb-4 sm:mb-8 md:mb-10 max-w-2xl mx-auto drop-shadow-lg">
+              Say goodbye to printed invites and hello to a smarter, eco-friendly, and elegant way to share your big day!
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
+            <div className="grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-3 md:gap-4 mb-5 sm:mb-8 text-white/90 text-xs sm:text-sm md:text-base max-w-xs sm:max-w-lg mx-auto">
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Personalized Design
+              </div>
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Love Story Section
+              </div>
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Online RSVP Form
+              </div>
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Event Details & Map
+              </div>
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Countdown & Gallery
+              </div>
+              <div className="flex items-center gap-1 sm:gap-2 justify-center md:justify-start">
+                <span className="text-green-400 text-sm">✔</span> Mobile-Friendly
+              </div>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 md:gap-6 justify-center items-center w-full mt-2">
               <Link
                 href="#about"
-                className="w-full sm:w-auto text-center bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-medium hover:bg-white/20 transition-all border border-white/20 drop-shadow"
-                style={{maxWidth: '400px'}}>
+                className="w-full text-center bg-white/10 backdrop-blur-sm text-white px-4 sm:px-8 py-2 rounded-full text-sm sm:text-base font-medium hover:bg-white/20 transition-all border border-white/20 drop-shadow"
+                style={{maxWidth: '100%'}}>
                 Learn More
+              </Link>
+              <Link
+                href="/contact"
+                className="w-full text-center bg-pink-500 text-white px-4 sm:px-8 py-2 rounded-full text-sm sm:text-base font-medium hover:bg-pink-600 transition-all drop-shadow"
+                style={{maxWidth: '100%'}}>
+                Start Your Digital "I DO"
               </Link>
             </div>
           </div>
