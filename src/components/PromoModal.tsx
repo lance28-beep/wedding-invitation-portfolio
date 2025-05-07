@@ -156,7 +156,7 @@ export default function PromoModal() {
             </div>
             <div className="relative animate-[badgePop_0.7s_ease]">
               <Image
-                src="/img/template_one.png"
+                src="/img/template_two.png"
                 alt="Template 2"
                 width={160}
                 height={110}
@@ -166,7 +166,7 @@ export default function PromoModal() {
             </div>
             <div className="relative animate-[badgePop_0.8s_ease]">
               <Image
-                src="/img/template_one.png"
+                src="/img/template_two.png"
                 alt="Template 3"
                 width={160}
                 height={110}
