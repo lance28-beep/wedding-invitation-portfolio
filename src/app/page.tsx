@@ -112,7 +112,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  href="#portfolio"
+                  href="/portfolio"
                   className="bg-pink-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-pink-700 transition-all shadow-md w-full sm:w-auto text-center focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
                   style={{boxShadow: '0 4px 16px 0 rgba(236, 72, 153, 0.15)'}}
                 >
