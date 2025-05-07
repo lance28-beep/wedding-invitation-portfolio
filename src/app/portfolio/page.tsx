@@ -19,10 +19,10 @@ const templates = [
   },
   {
     name: "Tadhana",
-    image: "/img/template_one.png",
+    image: "/img/template_two.png",
     description: "Classic and timeless, with a beautiful timeline and RSVP integration.",
     features: ["Timeline", "RSVP Form", "Social Links", "Elegant Typography"],
-    demo: "https://wedding-template1-jet.vercel.app/", // replace with real demo link
+    demo: "https://wedding-template2-lilac.vercel.app/", // replace with real demo link
     messenger: "https://m.me/mr.c0oletz",
   },
   {
