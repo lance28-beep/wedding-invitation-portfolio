@@ -38,7 +38,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center group">
               <span className="flex flex-col leading-tight">
-                <span className={`wedding-script text-xl md:text-2xl lg:text-3xl -mb-1 transition-all duration-300 ${scrolled ? 'text-pink-600' : 'text-white'} group-hover:text-pink-400`} style={{lineHeight: '1'}}>
+                <span className={`font-serif text-xl md:text-2xl lg:text-3xl -mb-1 transition-all duration-300 ${scrolled ? 'text-pink-600' : 'text-white'} group-hover:text-pink-400`} style={{lineHeight: '1'}}>
                   Wedding Templates
                   <span className="inline-block align-middle ml-1 text-pink-200 group-hover:scale-110 transition-transform duration-300" style={{fontSize: '0.4em'}}>
                     {/* Heart accent */}
