@@ -100,7 +100,7 @@ export default function Home() {
                 href="/contact"
                 className="w-full text-center bg-pink-500 text-white px-4 sm:px-8 py-2 rounded-full text-sm sm:text-base font-medium hover:bg-pink-600 transition-all drop-shadow"
                 style={{maxWidth: '100%'}}>
-                Start Your Digital "I DO"
+                Start Your Digital &ldquo;I DO&rdquo;
               </Link>
             </div>
           </div>
